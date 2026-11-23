@@ -2,6 +2,7 @@
 set -euo pipefail
 
 TEMAS="$HOME/.local/share/temas"
+ESTILOS="$HOME/.local/share/plasma/desktoptheme"
 NOMBRE="${1:-}"
 
 if [ -z "$NOMBRE" ]; then
@@ -24,8 +25,20 @@ echo "Aplicando tema: $NOMBRE"
 
 mkdir -p "$HOME/.local/share/color-schemes"
 cp "$DIR/$COLOR_FILE" "$HOME/.local/share/color-schemes/"
-plasma-apply-colorscheme "$COLOR_SCHEME"
 
+# Estilo de Plasma: crearlo desde la base si no existe
+if [ -n "${STYLE_BASE:-}" ] && [ ! -d "$ESTILOS/$DESKTOP_THEME" ]; then
+  mkdir -p "$ESTILOS"
+  cp -r "/usr/share/plasma/desktoptheme/$STYLE_BASE" "$ESTILOS/$DESKTOP_THEME"
+fi
+
+# Color de la barra: se escribe en el estilo para que no vuelva a negro
+if [ -n "${PANEL_BG:-}" ] && [ -d "$ESTILOS/$DESKTOP_THEME" ]; then
+  kwriteconfig6 --file "$ESTILOS/$DESKTOP_THEME/colors" \
+    --group Colors:Window --key BackgroundNormal "$PANEL_BG"
+fi
+
+plasma-apply-colorscheme "$COLOR_SCHEME"
 plasma-apply-desktoptheme "$DESKTOP_THEME"
 plasma-apply-wallpaperimage "$DIR/$WALLPAPER"
 plasma-apply-cursortheme --size "$CURSOR_SIZE" "$CURSOR"
@@ -39,6 +52,3 @@ kquitapp6 plasmashell 2>/dev/null || true
 kstart plasmashell >/dev/null 2>&1 &
 
 echo "Listo: $NOMBRE"
-
-
-
