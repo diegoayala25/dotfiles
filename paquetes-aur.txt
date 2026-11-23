@@ -1,0 +1,8 @@
+arduino-ide-bin
+epson-inkjet-printer-escpr
+epsonscan2
+papirus-folders-git
+plasma6-applets-appgrid
+plasma6-applets-kde-control-station
+plasma6-themes-layan-git
+ttf-press-start-2p

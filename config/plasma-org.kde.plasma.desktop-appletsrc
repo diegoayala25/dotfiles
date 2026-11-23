@@ -85,7 +85,7 @@ positions={"1366x768":["7","14","desktop:/steam.desktop","6","11"]}
 sortMode=-1
 
 [Containments][120][Wallpaper][org.kde.image][General]
-Image=file:///home/diego/Imágenes/fondos/ciudad-azul.png
+Image=file:///home/diego/.local/share/temas/hina-noche/fondo.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][121]

@@ -10,7 +10,7 @@ IntensityAmount=
 IntensityEffect=
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=true
+ChangeSelectionColor=
 Color=
 ColorAmount=
 ColorEffect=
@@ -21,50 +21,73 @@ IntensityAmount=
 IntensityEffect=
 
 [Colors:Button]
-BackgroundAlternate=145,171,180
-BackgroundNormal=175,201,206
-DecorationFocus=119,142,154
-DecorationHover=119,142,154
-ForegroundNormal=43,58,68
+BackgroundAlternate=89,102,172
+BackgroundNormal=52,68,114
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
 
 [Colors:Complementary]
-BackgroundNormal=89,108,123
-ForegroundNormal=216,235,237
+BackgroundNormal=13,15,45
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
 
 [Colors:Header]
-BackgroundNormal=175,201,206
-ForegroundNormal=43,58,68
+BackgroundNormal=29,37,92
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
 
 [Colors:Selection]
-BackgroundAlternate=100,120,135
-BackgroundNormal=119,142,154
+BackgroundAlternate=78,86,152
+BackgroundNormal=78,86,152
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundInactive=255,255,255
+ForegroundLink=198,201,229
 ForegroundNormal=255,255,255
 
 [Colors:Tooltip]
-BackgroundNormal=89,108,123
-ForegroundNormal=216,235,237
+BackgroundNormal=52,68,114
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
 
 [Colors:View]
-BackgroundAlternate=216,235,237
-BackgroundNormal=244,249,250
-DecorationFocus=119,142,154
-DecorationHover=145,171,180
-ForegroundLink=100,120,135
-ForegroundNormal=43,58,68
-ForegroundVisited=89,108,123
+BackgroundAlternate=29,37,92
+BackgroundNormal=13,15,45
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
+ForegroundVisited=180,177,199
 
 [Colors:Window]
-BackgroundAlternate=175,201,206
-BackgroundNormal=175,201,206
-DecorationFocus=119,142,154
-DecorationHover=145,171,180
-ForegroundNormal=43,58,68
+BackgroundAlternate=13,15,45
+BackgroundNormal=29,37,92
+DecorationFocus=106,117,198
+DecorationHover=106,117,198
+ForegroundActive=106,117,198
+ForegroundLink=198,201,229
+ForegroundNormal=243,234,245
 
 [General]
+AccentColor=106,117,198
 AccentColorFromWallpaper=false
 BrowserApplication=brave-browser.desktop
-ColorScheme=CiudadAzul
-ColorSchemeHash=ee8692a97aeaab0afd3998749e7ac4a1b706b743
+ColorScheme=HinaNoche
+ColorSchemeHash=9cfc53262d58db92dc8e1d3b0867c3902f5ac901
 LastUsedCustomAccentColor=61,174,233
 XftAntialias=true
 XftHintStyle=hintslight
@@ -102,10 +125,10 @@ Speedbar Width=103
 View Style=DetailTree
 
 [WM]
-activeBackground=175,201,206
-activeBlend=175,201,206
+activeBackground=29,37,92
+activeBlend=29,37,92
 activeFont=FantasqueSansM Nerd Font Mono,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold,0,0
-activeForeground=43,58,68
-inactiveBackground=175,201,206
-inactiveBlend=175,201,206
-inactiveForeground=43,58,68
+activeForeground=243,234,245
+inactiveBackground=29,37,92
+inactiveBlend=29,37,92
+inactiveForeground=243,234,245
