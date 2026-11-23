@@ -1,0 +1,6 @@
+[Libinput][1739][52781][SYNA2BA6:00 06CB:CE2D Touchpad]
+PointerAcceleration=0.200
+ScrollFactor=0.5
+
+[Mouse]
+cursorTheme=scm-windows-11-tan-9af841de

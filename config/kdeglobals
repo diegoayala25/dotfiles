@@ -1,0 +1,111 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=
+ColorAmount=
+ColorEffect=
+ContrastAmount=
+ContrastEffect=
+Enable=
+IntensityAmount=
+IntensityEffect=
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=
+ColorAmount=
+ColorEffect=
+ContrastAmount=
+ContrastEffect=
+Enable=
+IntensityAmount=
+IntensityEffect=
+
+[Colors:Button]
+BackgroundAlternate=145,171,180
+BackgroundNormal=175,201,206
+DecorationFocus=119,142,154
+DecorationHover=119,142,154
+ForegroundNormal=43,58,68
+
+[Colors:Complementary]
+BackgroundNormal=89,108,123
+ForegroundNormal=216,235,237
+
+[Colors:Header]
+BackgroundNormal=175,201,206
+ForegroundNormal=43,58,68
+
+[Colors:Selection]
+BackgroundAlternate=100,120,135
+BackgroundNormal=119,142,154
+ForegroundNormal=255,255,255
+
+[Colors:Tooltip]
+BackgroundNormal=89,108,123
+ForegroundNormal=216,235,237
+
+[Colors:View]
+BackgroundAlternate=216,235,237
+BackgroundNormal=244,249,250
+DecorationFocus=119,142,154
+DecorationHover=145,171,180
+ForegroundLink=100,120,135
+ForegroundNormal=43,58,68
+ForegroundVisited=89,108,123
+
+[Colors:Window]
+BackgroundAlternate=175,201,206
+BackgroundNormal=175,201,206
+DecorationFocus=119,142,154
+DecorationHover=145,171,180
+ForegroundNormal=43,58,68
+
+[General]
+AccentColorFromWallpaper=false
+BrowserApplication=brave-browser.desktop
+ColorScheme=CiudadAzul
+ColorSchemeHash=ee8692a97aeaab0afd3998749e7ac4a1b706b743
+LastUsedCustomAccentColor=61,174,233
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+accentColorFromWallpaper=true
+fixed=MesloLGL Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=MesloLGL Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=MesloLGLDZ Nerd Font Mono,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold,0,0
+smallestReadableFont=MesloLGL Nerd Font Propo,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=MesloLGLDZ Nerd Font,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold,0,0
+
+[Icons]
+Theme=Papirus
+
+[KDE]
+AnimationDurationFactor=0.25
+contrast=7
+frameContrast=0.2
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=false
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=103
+View Style=DetailTree
+
+[WM]
+activeBackground=175,201,206
+activeBlend=175,201,206
+activeFont=FantasqueSansM Nerd Font Mono,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold,0,0
+activeForeground=43,58,68
+inactiveBackground=175,201,206
+inactiveBlend=175,201,206
+inactiveForeground=43,58,68
